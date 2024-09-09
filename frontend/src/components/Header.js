@@ -57,7 +57,7 @@ const Header = () => {
       <div className=' h-full container mx-auto flex items-center px-4 justify-between'>
             <div className=''>
                 <Link to={"/"}>
-                <img src="logo.png" alt="Logo" className=" w-36" />
+                <img src="log.png" alt="Logo" className=" w-36" />
                 </Link>
             </div>
 
@@ -125,7 +125,7 @@ const Header = () => {
                       <button onClick={handleLogout} className='px-3 py-1 rounded-full text-white bg-sky-600 hover:bg-sky-900'>Logout</button>
                     )
                     : (
-                    <Link to={"/login"} className='px-3 py-1 rounded-full text-white bg-red-600 hover:bg-red-700'>Login</Link>
+                    <Link to={"/login"} className='px-3 py-1 rounded-full text-white bg-sky-600 hover:bg-sky-700'>Login</Link>
                     )
                   }
                     
